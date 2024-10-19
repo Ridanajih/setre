@@ -1,0 +1,47 @@
+footer{
+    align-items: flex-end;
+    justify-content: space-between;
+
+    & .cart-bank ul{
+       gap: 15px;
+       font-size: 30px;
+    }
+
+    & .information{
+        text-align: center;
+
+
+        & ul {
+            gap: 15px;
+
+            & a{
+                transition: 0.3s;
+
+            }
+
+            & a:hover{
+                color: var(--fonttext);
+            }
+        }
+
+    }
+
+    & .contact ul{
+        gap: 15px;
+        margin-right: 20px;
+
+        & li a {
+            color: black;
+            transition: 0.3s;
+
+            & i {
+                font-size: 30px;    
+            }
+        }
+
+        & li a:hover{
+            color: var(--fonttext);
+            
+        }
+    }
+}
